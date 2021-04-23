@@ -22,6 +22,11 @@
 			 */
 			
 			/* 
+			
+			登录操作：git config --global user.name "用户名"
+					 git config --global user.name "邮箱"
+
+			
 				git操作的具体步骤
 					1.cd 路径 进入当前目录
 					2.配置git基本操作
@@ -46,6 +51,24 @@
 						git diff
 						
 					8.clear	清屏操作
+					
+					9.git log
+						查看已经提交到暂存区的历史版本
+						
+					10.恢复文件到指定的魔偶一个版本
+						git reset --hard 版本号
+						
+					11.生成ssh密匙
+						ssh-keygen -t rsa -C "邮箱地址"
+						
+					winddows电脑查找文件：我的电脑 => 用户 => 用户名文件夹 => .ssh(隐藏文件) => xxx.pub(存有密匙)
+					
+					12.github账户配置密匙
+					
+					13.暂存区 => 远程仓库
+						 git remote add origin https://github.com/Dud-1/textDemo.git
+						git push -u origin master
+						【注】提交过程，可能需要输入用户名和密码
 			 */
 		</script>
 	</head>
